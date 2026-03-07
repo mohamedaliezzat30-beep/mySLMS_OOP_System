@@ -22,3 +22,12 @@ Members can perform the following actions:
 - Return borrowed books
 - Reserve books that are currently borrowed
 - View currently borrowed books
+
+## Administrator Features
+
+Administrators have additional system management capabilities:
+
+- View the full library catalogue
+- View overdue books
+- Advance system time
+- Generate a simple system report
