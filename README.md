@@ -7,3 +7,18 @@ The system simulates a small digital library where members can browse books, bor
 Administrators can monitor the system and view reports. 
 
 This project was developed as part of coursework for Object-Oriented Analysis and Design.
+
+---
+
+# System Features
+
+## Member Features
+
+Members can perform the following actions:
+
+- Create a new account
+- View the list of available books
+- Borrow books from the library
+- Return borrowed books
+- Reserve books that are currently borrowed
+- View currently borrowed books
