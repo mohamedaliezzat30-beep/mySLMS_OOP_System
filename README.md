@@ -65,3 +65,32 @@ Classes manage their internal data and expose behaviour through controlled metho
 
 ### Polymorphism
 Different user types implement their own menu behaviour using overridden methods.
+
+---
+
+## Repository Structure
+Models/
+Book.cs
+
+Services/
+Library.cs
+ConsoleUI.cs
+Input.cs
+
+Users/
+User.cs
+Member.cs
+Admin.cs
+UserStore.cs
+
+Program.cs
+
+
+---
+
+## How to Run the System
+
+1. Open the project in **Visual Studio**
+2. Build the solution
+3. Run the program using:
+Ctrl + F5 
