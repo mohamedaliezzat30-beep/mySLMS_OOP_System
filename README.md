@@ -1,6 +1,6 @@
-Smart Library Management System (SLMS) 
+# Smart Library Management System (SLMS) 
 
-Project Description 
+## Project Description 
 
 The Smart Library Management System (SLMS) is a console-based application developed in C# using Object-Oriented Programming (OOP) principles. 
 The system simulates a small digital library where members can browse books, borrow and return them, and reserve books that are currently unavailable. 
@@ -23,6 +23,8 @@ Members can perform the following actions:
 - Reserve books that are currently borrowed
 - View currently borrowed books
 
+---
+
 ## Administrator Features
 
 Administrators have additional system management capabilities:
@@ -31,3 +33,20 @@ Administrators have additional system management capabilities:
 - View overdue books
 - Advance system time
 - Generate a simple system report
+
+---
+
+## Book Catalogue
+
+The system contains a predefined catalogue of well-known books:
+
+- The Great Gatsby – F. Scott Fitzgerald
+- 1984 – George Orwell
+- To Kill a Mockingbird – Harper Lee
+- Pride and Prejudice – Jane Austen
+- The Hobbit – J.R.R. Tolkien
+- The Catcher in the Rye – J.D. Salinger
+- Moby Dick – Herman Melville
+- War and Peace – Leo Tolstoy
+- Crime and Punishment – Fyodor Dostoevsky
+- The Lord of the Rings – J.R.R. Tolkien
