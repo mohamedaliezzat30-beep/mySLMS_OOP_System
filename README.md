@@ -50,3 +50,18 @@ The system contains a predefined catalogue of well-known books:
 - War and Peace – Leo Tolstoy
 - Crime and Punishment – Fyodor Dostoevsky
 - The Lord of the Rings – J.R.R. Tolkien
+
+---
+
+## Object-Oriented Design
+
+The project demonstrates key object-oriented programming concepts.
+
+### Inheritance
+The `Member` and `Admin` classes inherit from the base `User` class.
+
+### Encapsulation
+Classes manage their internal data and expose behaviour through controlled methods.
+
+### Polymorphism
+Different user types implement their own menu behaviour using overridden methods.
