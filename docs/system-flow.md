@@ -5,48 +5,49 @@ This document describes the overall program flow of the Smart Library Management
 ---
 
 ## Main Program
-START PROGRAM
 
-LOAD saved users
-INITIALISE library
-LOAD book catalogue
+START PROGRAM  
 
-WHILE program is running
+LOAD saved users  
+INITIALISE library  
+LOAD book catalogue  
 
-DISPLAY login menu
-INPUT username
-INPUT password
+WHILE program is running  
 
-IF login is administrator THEN
-    OPEN administrator menu
+ DISPLAY login menu  
+ INPUT username  
+ INPUT password  
 
-ELSE
+ IF login is administrator THEN  
+  OPEN administrator menu  
 
-    IF user account exists THEN
-        LOGIN existing user
-    ELSE
-        CREATE new user account
-    ENDIF
+ ELSE  
 
-    OPEN member menu
+  IF user account exists THEN  
+   LOGIN existing user  
+  ELSE  
+   CREATE new user account  
+  ENDIF  
 
-ENDIF
+  OPEN member menu  
 
-END WHILE
+ ENDIF  
 
-END PROGRAM
+END WHILE  
+
+END PROGRAM  
 
 ---
 
 ## User Login Process
 
-DISPLAY login prompt
-INPUT username
-INPUT password
+DISPLAY login prompt  
+INPUT username  
+INPUT password  
 
-IF username exists in stored users THEN
-VALIDATE password
-LOGIN user
-ELSE
-CREATE new user account
+IF username exists in stored users THEN  
+ VALIDATE password  
+ LOGIN user  
+ELSE  
+ CREATE new user account  
 ENDIF
