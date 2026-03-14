@@ -94,3 +94,28 @@ Program.cs
 2. Build the solution
 3. Run the program using:
 Ctrl + F5 
+
+---
+
+## Project Documentation
+
+Additional documentation used during the design and testing of the system can be found in the **docs** folder.
+
+These documents include:
+
+- **System Requirements** – outlines the functional and non-functional requirements of the system.
+- **Class Design** – explains the structure of the main classes used in the program.
+- **System Flow Pseudocode** – describes the overall program logic before implementation.
+- **Book Operations Pseudocode** – shows the logic for borrowing, returning, and reserving books.
+- **Testing Documentation** – contains test cases used to verify the system functionality.
+- **Traceability Matrix** – links the system requirements to the tests used to verify them.
+
+These documents were created during the design stage of the project to help plan and structure the implementation.
+
+---
+
+## Technologies Used
+
+- C#
+- Visual Studio
+- GitHub
